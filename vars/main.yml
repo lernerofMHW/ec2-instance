@@ -1,0 +1,27 @@
+---
+
+aws_access_key: ""
+aws_secret_key: ""
+region: ""
+
+# VPC
+vpc_cidr: 10.10.0.0/24
+vpc_name: "Production-VPC"
+
+# Subnet
+subnet_name: "Production-subnet"
+subnet_cidr: 10.10.0.0/26
+
+igw_name: "Production-IGW"
+
+# route table name
+route_name: "Production-RT"
+
+securitygroup_name: "Production-SG"
+
+ec2_tag: "Production-Instance"
+
+# Key storage location
+ec2_key_directory: "/home/cloud/"
+keypair_name: "Production-key"
+
